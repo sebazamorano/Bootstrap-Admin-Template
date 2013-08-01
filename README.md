@@ -7,15 +7,11 @@ Free Admin Template with Twitter Bootstrap
     $ cd yourfoldername
     $ git submodule init
     $ git submodule update
+    $ npm install
+    $ grunt
+    $ cd dist/
+    $ open index.html
 
 ### Demo
 
-[http://demo.onokumus.com/metis/index.html][1]
-
-### Licensing
-
-Bootstrap Admin template is open-sourced software licensed under the [MIT License][2]
-
-
-  [1]: http://demo.onokumus.com/metis/index.html
-  [2]: http://opensource.org/licenses/MIT
+http://demo.onokumus.com/metis/index.html
