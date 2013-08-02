@@ -1,0 +1,14 @@
+{
+"dashboard": {
+    "list": [
+      {"item": "script1"},
+      {"item": "script2"}
+    ]
+  },
+  "alterne": {
+    "list": [
+      {"item": "script3"},
+      {"item": "script4"}
+    ]
+  }
+}

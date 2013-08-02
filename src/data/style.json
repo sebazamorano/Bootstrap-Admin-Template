@@ -1,0 +1,14 @@
+{
+"dashboard": {
+    "list": [
+      {"item": "style1.css"},
+      {"item": "style2.css"}
+    ]
+  },
+  "alterne": {
+    "list": [
+      {"item": "style3.css"},
+      {"item": "style4.css"}
+    ]
+  }
+}
