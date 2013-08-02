@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{assets}}/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="{{assets}}/css/login.css">
+    <link rel="stylesheet" href="{{assets}}/magic/magic.css">
+    
+  </head>
+  <body>
+
+	      {{> body }}
+
+	      
+	      
+      <script src="{{assets}}/js/jquery-2.0.3.min.js"></script>
+      <script src="{{assets}}/bootstrap/js/bootstrap.js"></script>
+      
+      <script>
+            $('.list-inline li > a').click(function() {
+                var activeForm = $(this).attr('href') + ' > form';
+                //console.log(activeForm);
+                $(activeForm).addClass('magictime swap');
+                //set timer to 1 seconds, after that, unload the magic animation
+                setTimeout(function() {
+                    $(activeForm).removeClass('magictime swap');
+                }, 1000);
+            });
+
+        </script>
+  </body>
+</html>

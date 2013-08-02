@@ -1,0 +1,74 @@
+<div class="media user-media hidden-sm">
+    <a class="user-link" href="">
+	<img class="media-object img-thumbnail user-img" alt="User Picture" src="assets/img/user.gif">
+	<span class="label user-label">16</span>
+    </a>
+
+    <div class="media-body hidden-md">
+	<h5 class="media-heading">Archie</h5>
+	<ul class="list-unstyled user-info">
+	    <li><a href="">Administrator</a></li>
+	    <li>Last Access : <br>
+		<small><i class="icon-calendar"></i> 16 Mar 16:32</small>
+	    </li>
+	</ul>
+    </div>
+</div>
+<!-- #menu -->
+<ul id="menu" class="accordion in">
+    <li class="accordion-group {{#is topTitle "Dashboard"}} active{{/is}}">
+	<a href="#" data-parent="#menu" data-toggle="collapse" class="accordion-toggle" data-target="#dashboard-nav">
+	    <i class="icon-dashboard icon-large"></i> Dashboard <span
+		class="label">2</span>
+	</a>
+	<ul class="collapse{{#is topTitle "Dashboard"}} in{{/is}}" id="dashboard-nav">
+	    <li><a href="dashboard.html"><i class="icon-angle-right"></i> Default Style</a></li>
+	    <li><a href="alterne.html"><i class="icon-angle-right"></i> Alternative Style</a></li>
+	</ul>
+    </li>
+    <li class="accordion-group{{#is topTitle "Components"}} active{{/is}}">
+	<a href="#" data-parent="#menu" data-toggle="collapse" class="accordion-toggle" data-target="#component-nav">
+	    <i class="icon-tasks icon-large"></i> Components <span class="label">2</span>
+	</a>
+	<ul class="collapse{{#is topTitle "Components"}} in{{/is}}" id="component-nav">
+	    <li><a href="icon.html"><i class="icon-angle-right"></i> Icon & Button</a></li>
+	    <li><a href="progress.html"><i class="icon-angle-right"></i> Progress</a></li>
+	</ul>
+    </li>
+    <li class="accordion-group{{#is topTitle "Forms"}} active{{/is}}">
+	<a href="#" data-parent="#menu" data-toggle="collapse" class="accordion-toggle collapsed" data-target="#form-nav">
+	    <i class="icon-pencil icon-large"></i> Forms <span class="label">4</span>
+	</a>
+	<ul class="collapse{{#is topTitle "Forms"}} in{{/is}}" id="form-nav">
+	    <li><a href="form-general.html"><i class="icon-angle-right"></i> General</a></li>
+	    <li><a href="form-validation.html"><i class="icon-angle-right"></i> Validation</a></li>
+	    <li><a href="form-wysiwyg.html"><i class="icon-angle-right"></i> WYSIWYG</a></li>
+	    <li><a href="form-wizard.html"><i class="icon-angle-right"></i> Wizard &amp; File Upload</a></li>
+	</ul>
+    </li>
+    <li{{#is title "Table"}} class="active"{{/is}}><a href="table.html"><i class="icon-table icon-large"></i> Tables</a></li>
+    <li{{#is title "File Manager"}} class="active"{{/is}}><a href="file.html"><i class="icon-file icon-large"></i> File Manager</a></li>
+    <li{{#is title "Typography"}} class="active" {{/is}}><a href="typography.html"><i class="icon-font icon-large"></i> Typography</a></li>
+    <li{{#is title "Maps"}} class="active" {{/is}}><a href="maps.html"><i class="icon-map-marker icon-large"></i> Maps</a></li>
+    <li{{#is title "Charts"}} class="active" {{/is}}><a href="chart.html"><i class="icon-bar-chart icon-large"></i> Charts</a></li>
+    <li{{#is title "Calendar"}} class="active" {{/is}}><a href="calendar.html"><i class="icon-calendar icon-large"></i> Calendar</a></li>
+    <li class="accordion-group ">
+	<a href="#" data-parent="#menu" data-toggle="collapse" class="accordion-toggle" data-target="#error-nav">
+	    <i class="icon-warning-sign icon-large"></i> Error Pages
+	    <span class="label">7</span>
+	</a>
+	<ul class="collapse" id="error-nav">
+	    <li><a href="403.html"><i class="icon-angle-right"></i> 403</a></li>
+	    <li><a href="404.html"><i class="icon-angle-right"></i> 404</a></li>
+	    <li><a href="405.html"><i class="icon-angle-right"></i> 405</a></li>
+	    <li><a href="500.html"><i class="icon-angle-right"></i> 500</a></li>
+	    <li><a href="503.html"><i class="icon-angle-right"></i> 503</a></li>
+	    <li><a href="offline.html"><i class="icon-angle-right"></i> offline</a></li>
+	    <li><a href="countdown.html"><i class="icon-angle-right"></i> Under Construction</a></li>
+	</ul>
+    </li>
+    <li{{#is title "Grid"}} class="active" {{/is}}><a href="grid.html"><i class="icon-columns icon-large"></i> Grid</a></li>
+    <li{{#is title "Blank Page"}} class="active" {{/is}}><a href="blank.html"><i class="icon-check-empty icon-large"></i> Blank Page</a></li>
+    <li><a href="login.html"><i class="icon-signin icon-large"></i> Login Page</a></li>
+</ul>
+<!-- /#menu -->
