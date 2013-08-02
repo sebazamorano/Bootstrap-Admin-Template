@@ -1,0 +1,27 @@
+[submodule "src/assets/submodule/magic"]
+	path = src/assets/submodule/magic
+	url = https://github.com/miniMAC/magic.git
+[submodule "src/assets/submodule/flot"]
+	path = src/assets/submodule/flot
+	url = https://github.com/flot/flot.git
+[submodule "src/assets/submodule/mousewheel"]
+	path = src/assets/submodule/mousewheel
+	url = https://github.com/brandonaaron/jquery-mousewheel.git
+[submodule "src/assets/submodule/tablesorter"]
+	path = src/assets/submodule/tablesorter
+	url = https://github.com/Mottie/tablesorter.git
+[submodule "src/assets/submodule/gmaps"]
+	path = src/assets/submodule/gmaps
+	url = https://github.com/HPNeo/gmaps.git
+[submodule "src/assets/submodule/Font-Awesome"]
+	path = src/assets/submodule/Font-Awesome
+	url = https://github.com/FortAwesome/Font-Awesome.git
+[submodule "src/assets/submodule/countdown"]
+	path = src/assets/submodule/countdown
+	url = https://github.com/kbwood/countdown.git
+[submodule "src/assets/submodule/uniform"]
+	path = src/assets/submodule/uniform
+	url = https://github.com/pixelmatrix/uniform.git
+[submodule "src/assets/submodule/glyphicons"]
+	path = src/assets/submodule/glyphicons
+	url = https://github.com/twbs/bootstrap-glyphicons.git

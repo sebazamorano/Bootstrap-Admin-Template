@@ -34,17 +34,17 @@ module.exports = function(grunt) {
                     'src/templates/partials/**/*.hbs',
                     'src/content/*.hbs'
                 ],
-                helpers: ['lib/**/*.js']
+                helpers: ['src/helper/**/*.js']
             },
             pages: {
                 // Target-level options
                 options: {
                     flatten: true,
                     layout: 'src/templates/layouts/default.hbs',
-                    helpers: ['lib/**/*.js']
+                    helpers: ['src/helper/**/*.js']
                 },
                 files: [
-                    {expand: true, cwd: 'src/templates/pages', src: ['*.hbs', 'index.hbs'], dest: 'dist/'}
+                    {expand: true, cwd: 'src/templates/pages', src: ['*.hbs'], dest: 'dist/'}
                 ]
             },
             login: {
