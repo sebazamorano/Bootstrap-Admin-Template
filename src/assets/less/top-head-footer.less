@@ -1,0 +1,116 @@
+/*********************************************************/
+/*          Begin top-header-content-footer Styles                           */
+/*********************************************************/
+
+/* Wrapper styles ------------------------------------*/
+
+#wrap {
+  background: url("../img/pattern/green-fibers.png") repeat #444444;
+  .clearfix();
+}
+
+/* --------------- TOP BAR STYLES -------------------- */
+#top {
+  > .navbar {
+    border-top: 3px solid #CD0067;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    > .navbar-brand {padding: 0;}
+  }
+}
+
+/* --------------- HEADER.head STYLES -------------------- */
+.head {
+  background-color: #444444;
+  border-bottom: 2px solid #333333;
+  .search-bar {
+      border-right: 2px solid #333;
+      border-right: 2px solid rgba(0, 0, 0, 0.24);
+      border-left: none;
+      .main-search {
+        input[type="text"] {
+          background-color: #444444;
+          border: 1px solid #000000;
+          color: #CCCCCC;
+          float: left;
+          font-size: 12px;
+          padding: 0 4px;
+        }
+      }
+  }
+  .main-bar {
+    h3 {
+      color: #BABABA;
+      line-height: 29px;
+      margin: 10px;
+      text-shadow: 0 1px 0 rgba(51, 47, 47, 0.6);
+    }
+  }
+}
+/* --------------- LEFT NAVIGATION STYLES -------------------- */
+#left {
+  .user-media {
+    a {
+      color: #888888;
+    }
+    a.user-link {
+      .user-label {
+        background-color: #9A004D;
+      }
+    }
+  }
+}
+/* --------------- FOOTER STYLES -------------------- */
+#footer {
+  margin: 0 auto;
+  border-top: 2px solid #060606;
+  color: #f9f9f9;
+  background-color: #444;
+  background-image: url("../img/px_by_Gre3g.png");
+  background-repeat: repeat;
+  p {
+    padding-top: 12px;
+    text-align: center;
+  }
+}
+/* --------------- CONTENT STYLES -------------------- */
+#content {
+  .outer {
+    background-color: #6e6e6e;
+    padding: 10px;
+    .clearfix();
+    .inner {
+      background: #fff;
+      border: 10px solid #e4e4e4;
+      .make-column(12);
+    }
+  }
+}
+
+/* BEGIN body.side-right styles */
+.side-right {
+  .head .search-bar {
+    border-right: none;
+    border-left: unit(@searchBarLeftBorderWidth, px) solid rgba(0, 0, 0, 0.24);
+  }
+}
+/* END body.side-right styles */
+
+
+@media (max-width: 767px) {
+  .head {
+    .search-bar {
+      .search-bar-inner {
+        border-right: none;
+      }
+    }
+    .main-bar {
+      border-top: 2px solid #333;
+    }
+  }
+}
+
+
+
+/* ============== END top-header-content-footer Styles ================= */
