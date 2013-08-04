@@ -25,3 +25,57 @@
 [submodule "src/assets/submodule/glyphicons"]
 	path = src/assets/submodule/glyphicons
 	url = https://github.com/twbs/bootstrap-glyphicons.git
+[submodule "src/assets/submodule/cssbeautify"]
+	path = src/assets/submodule/cssbeautify
+	url = https://github.com/senchalabs/cssbeautify.git
+[submodule "src/assets/submodule/jasny"]
+	path = src/assets/submodule/jasny
+	url = https://github.com/jasny/bootstrap.git
+[submodule "src/assets/submodule/timepicker"]
+	path = src/assets/submodule/timepicker
+	url = https://github.com/jdewit/bootstrap-timepicker.git
+[submodule "src/assets/submodule/progressbar"]
+	path = src/assets/submodule/progressbar
+	url = https://github.com/minddust/bootstrap-progressbar.git
+[submodule "src/assets/submodule/daterangepicker"]
+	path = src/assets/submodule/daterangepicker
+	url = https://github.com/dangrossman/bootstrap-daterangepicker.git
+[submodule "src/assets/submodule/autosize"]
+	path = src/assets/submodule/autosize
+	url = https://github.com/jackmoore/autosize.git
+[submodule "src/assets/submodule/nicescroll"]
+	path = src/assets/submodule/nicescroll
+	url = https://github.com/inuyaksa/jquery.nicescroll.git
+[submodule "src/assets/submodule/switch"]
+	path = src/assets/submodule/switch
+	url = https://github.com/nostalgiaz/bootstrap-switch.git
+[submodule "src/assets/submodule/tagsinput"]
+	path = src/assets/submodule/tagsinput
+	url = https://github.com/xoxco/jQuery-Tags-Input.git
+[submodule "src/assets/submodule/responsive-tables"]
+	path = src/assets/submodule/responsive-tables
+	url = https://github.com/zurb/responsive-tables.git
+[submodule "src/assets/submodule/validval"]
+	path = src/assets/submodule/validval
+	url = https://github.com/FrDH/jquery.validVal.git
+[submodule "src/assets/submodule/gritter"]
+	path = src/assets/submodule/gritter
+	url = https://github.com/jboesch/Gritter.git
+[submodule "src/assets/submodule/wysihtml5"]
+	path = src/assets/submodule/wysihtml5
+	url = https://github.com/jhollingworth/bootstrap-wysihtml5.git
+[submodule "src/assets/submodule/plupload"]
+	path = src/assets/submodule/plupload
+	url = https://github.com/moxiecode/plupload.git
+[submodule "src/assets/submodule/animate"]
+	path = src/assets/submodule/animate
+	url = https://github.com/daneden/animate.css.git
+[submodule "src/assets/submodule/validationengine"]
+	path = src/assets/submodule/validationengine
+	url = https://github.com/posabsolute/jQuery-Validation-Engine.git
+[submodule "src/assets/submodule/pagedown"]
+	path = src/assets/submodule/pagedown
+	url = https://github.com/samwillis/pagedown-bootstrap.git
+[submodule "src/assets/submodule/formwizard"]
+	path = src/assets/submodule/formwizard
+	url = https://github.com/thecodemine/formwizard.git

@@ -21,13 +21,13 @@ var styleSwitcher = {
         // Style Switcher CSS
         yepnope([
             {load: 'assets/css/style-switcher.css'},
-            {load: 'assets/colorpicker/css/colorpicker.css'},
-            {load: 'assets/js/cssbeautify.js'},
-            {load: 'assets/colorpicker/js/bootstrap-colorpicker.js',
+            {load: 'assets/lib/colorpicker/css/colorpicker.css'},
+            {load: 'assets/lib/cssbeautify/cssbeautify.js'},
+            {load: 'assets/lib/colorpicker/js/bootstrap-colorpicker.js',
                 complete: function() {
                     yepnope([
                         {load: 'less!assets/less/theme.less'},
-                        {load: 'assets/js/vendor/less-1.4.1.min.js',
+                        {load: 'assets/lib/less-1.4.1.min.js',
                             complete: function() {
 
 
@@ -272,7 +272,7 @@ var styleSwitcher = {
             {'image': 'crissXcross', 'title': 'crissXcross'},
             {'image': 'rip_jobs', 'title': 'R.I.P Steve Jobs'},
             {'image': 'random_grey_variations', 'title': 'Random Grey Variations'},
-            {'image': 'carbon_fibre', 'title': 'Carbon Fibre'},
+            {'image': 'carbon_fibre', 'title': 'Carbon Fibre'}
         ];
 
         $.each(patternImages, function(i) {
@@ -316,7 +316,7 @@ var styleSwitcher = {
             $(this).addClass('active');
             sideRightLink.removeClass('active');
             $('body').removeClass('side-right');
-            $('#sidebarPos').addClass('')
+            $('#sidebarPos').addClass('');
         });
         var sideRightLink = $('<a/>').html('Right').attr('href', '#').on('click', function(e) {
             e.preventDefault();
