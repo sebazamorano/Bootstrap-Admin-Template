@@ -18,4 +18,4 @@ Free Admin Template with Twitter Bootstrap
 http://demo.onokumus.com/metis/index.html
 
 #### For 2.0.0 version
-Not Yet
+http://demo.onokumus.com/metis/v2/
