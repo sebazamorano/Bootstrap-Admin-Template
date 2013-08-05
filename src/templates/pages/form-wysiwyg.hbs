@@ -3,21 +3,18 @@ topTitle: Forms
 title: Form WYSIWYG
 icon: icon-edit
 stylesheets:
-- lib/wysihtml5/lib/css/wysiwyg-color.css
 - lib/wysihtml5/dist/bootstrap-wysihtml5-0.0.2.css
 - css/Markdown.Editor.hack.css
 - lib/CLEditor1_4_3/jquery.cleditor.css
-cdncss:
-- http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/flick/jquery-ui.css
-cdnjs:
-- //ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js
+- css/jquery.cleditor-hack.css
+- css/bootstrap-wysihtml5-hack.css
 javascripts:
-- lib/wysihtml5/lib/js/wysihtml5-0.3.0.min.js
-- lib/wysihtml5/dist/bootstrap-wysihtml5-0.0.2.min.js
+- lib/wysihtml5/lib/js/wysihtml5-0.3.0.js
+- lib/bootstrap-wysihtml5-hack.js
 - lib/CLEditor1_4_3/jquery.cleditor.min.js
 - lib/pagedown/Markdown.Converter.js
 - lib/pagedown/Markdown.Sanitizer.js
-- lib/pagedown/Markdown.Editor.js
+- lib/Markdown.Editor-hack.js
 scripts: $(function() { formWysiwyg(); });
 ---
 <style>
