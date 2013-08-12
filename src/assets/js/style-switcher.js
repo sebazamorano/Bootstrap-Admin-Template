@@ -71,31 +71,42 @@ var styleSwitcher = {
             }
         }
 
-        var modalHTML = '<div id="getCSSModal" class="modal hide fade">'
-                + '<div class="modal-header">'
-                + '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>'
-                + '<h3>Theme CSS</h3>'
-                + '<p>Copy textarea content and paste into theme.css</p></div>'
-                + '<div class="modal-body">'
-                + '<div id="boxedBodyAlert" class="alert alert-info">'
-                + 'Please add the <strong>"fixed"</strong> class to the &lt;body&gt; element.</div>'
-                + '<div id="sidebarPos" class="alert alert-info">'
-                + 'Plase add the <strong>"side-right"</strong> class to the &lt;body&gt; element.</div>'
-                + '<div id="sidebarWidth" class="alert alert-info">'
-                + 'Plase add the <strong>"mini-sidebar"</strong> class to the &lt;body&gt; element.</div>'
-                + '<div id="topNavStyle" class="alert alert-info">'
-                + 'Plase add the <strong>"padTop53"</strong> class to the &lt;body&gt; element.'
-                + ' Remove <strong>"navbar-static-top"</strong> class and add the <strong>"navbar-fixed-top"</strong> class'
-                + ' to the #top .navbar element.</div>'
-                + '<textarea name="cssbeautify" id="cssbeautify" readonly></textarea></div>'
-                + '<div class="modal-footer">'
-                + '<button aria-hidden="true" data-dismiss="modal" class="btn">Close</button>'
-                + '</div></div>';
+        var modalHTML = '<div id="getCSSModal" class="modal fade">' +
+            '<div class="modal-dialog">' +
+            '<div class="modal-content">' +
+            '<div class="modal-header">' +
+            '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>' +
+            '<h4 class="modal-title">Theme CSS</h4>' +
+            '<code>Copy textarea content and paste into theme.css</code>' +
+            '</div> ' +
+            '<div class="modal-body">' +
+            '<div id="boxedBodyAlert" class="alert alert-info">' +
+            'Please add the <strong>"fixed"</strong> class to the &lt;body&gt; element.' +
+            '</div>' +
+            '<div class="alert alert-info" id="sidebarPos">' +
+            'Plase add the <strong>"side-right"</strong> class to the &lt;body&gt; element.' +
+            '</div> ' +
+            '<div id="sidebarWidth" class="alert alert-info">' +
+            'Plase add the <strong>"mini-sidebar"</strong> class to the &lt;body&gt; element.' +
+            '</div>' +
+            '<div id="topNavStyle" class="alert alert-info">' +
+            'Plase add the <strong>"padTop53"</strong> class to the &lt;body&gt; element.' +
+            ' Remove <strong>"navbar-static-top"</strong> class and add the <strong>"navbar-fixed-top"</strong> class' +
+            ' to the #top .navbar element.' +
+            '</div>' +
+            '<textarea class="form-control" name="cssbeautify" id="cssbeautify" readonly></textarea>' +
+            '</div> ' +
+            '<div class="modal-footer">' +
+            '<button aria-hidden="true" data-dismiss="modal" class="btn btn-danger">Close</button>' +
+            '</div> ' +
+            '</div>' +
+            '</div> ' +
+            '</div>';
 
 
         $("body").append(modalHTML);
 
-        var switchDiv = $('<div />').attr('id', 'style-switcher').addClass('style-switcher hidden-phone');
+        var switchDiv = $('<div />').attr('id', 'style-switcher').addClass('style-switcher hidden-sm');
 
         var h5Ai = $('<i />').addClass('icon-cogs icon-2x');
         var h5A = $('<a />')
@@ -220,7 +231,7 @@ var styleSwitcher = {
             }
         }
         styleSwitcherWrap.append(
-                $('<div/>').addClass('options-link').append(
+                $('<div/>').addClass('options-link boxedFixedBody').append(
                 $('<h6/>').html('Layout Style'),
                 boxLink,
                 wideLink
@@ -347,7 +358,7 @@ var styleSwitcher = {
 
         styleSwitcherWrap.append(
                 $('<hr/>'),
-                $('<div/>').addClass('options-link sidebarOpt').append(
+                $('<div/>').addClass('options-link sidebarOpt visible-lg').append(
                 $('<h6/>').html('Side Bar Width'),
                 sideMiniLink,
                 sideMaxiLink

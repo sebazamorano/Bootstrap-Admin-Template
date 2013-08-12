@@ -31,7 +31,8 @@ module.exports = function(grunt) {
                     'src/assets/js/metisFile.js',
                     'src/assets/js/metisMaps.js',
                     'src/assets/js/metisTable.js',
-                    'src/assets/js/progress.js'
+                    'src/assets/js/progress.js',
+                    'src/assets/js/button.js'
                 ],
                 dest: 'dist/assets/js/main.js'
             },
@@ -69,14 +70,14 @@ module.exports = function(grunt) {
             },
             main: {
                 files: {
-                    'dist/assets/css/main.css': ['src/assets/less/style.less']
-                }
+                    'dist/assets/css/main.css': ['src/assets/less/style.less']		
+		}
             },
             min: {
                 options: {compress: true},
-                files: {
-                    'dist/assets/css/main.min.css': ['src/assets/less/style.less']
-                }
+                files: {                
+                    'dist/assets/css/main.min.css': ['src/assets/less/style.less']		
+		}
             }
         },
         assemble: {

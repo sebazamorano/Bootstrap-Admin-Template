@@ -2,6 +2,7 @@ $(function() {
     "use strict";
 
     $('a[data-toggle=tooltip]').tooltip();
+    $('a[data-tooltip=tooltip]').tooltip();
 
 
     $('.minimize-box').on('click', function(e) {
