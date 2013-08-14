@@ -148,28 +148,32 @@ scripts: $(function() { formGeneral(); });
 <!--BEGIN SELECT        -->
 
 <div class="col-lg-6">
-    <div class="box">
+    <div class="box inverse">
         <header>
             <div class="icons"><i class="icon-th-large"></i></div>
             <h5>Selects</h5>
-            <ul class="nav pull-right">
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                        <i class="icon-th-large"></i>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="">q</a></li>
-                        <li><a href="">a</a></li>
-                        <li><a href="">b</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="accordion-toggle minimize-box" data-toggle="collapse" href="#div-2">
-                        <i class="icon-chevron-up"></i>
-                    </a>
-                </li>
-            </ul>
+            <div class="toolbar">
+	      <ul class="nav pull-right">
+		  <li><a href="#">Link</a></li>
+		  <li class="dropdown">
+		      <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+			  <i class="icon-th-large"></i>
+		      </a>
+		      <ul class="dropdown-menu">
+			  <li><a href="">q</a></li>
+			  <li><a href="">a</a></li>
+			  <li><a href="">b</a></li>
+		      </ul>
+		  </li>
+		  <li>
+		      <a class="accordion-toggle minimize-box" data-toggle="collapse" href="#div-2">
+			  <i class="icon-chevron-up"></i>
+		      </a>
+		  </li>
+	      </ul>
+            </div>
+            <!-- /.toolbar -->
+            
         </header>
         <div id="div-2" class="accordion-body collapse in body">
             <form class="form-horizontal">
@@ -1119,23 +1123,27 @@ scripts: $(function() { formGeneral(); });
             <header>
                 <div class="icons"><i class="icon-bolt"></i></div>
                 <h5>Masked Inputs</h5>
-                <ul class="nav pull-right">
-                    <li><a href="#">Link</a></li>
-                    <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <i class="icon-th-large"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="">q</a></li>
-                            <li><a href="">a</a></li>
-                            <li><a href="">b</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="accordion-toggle minimize-box" data-toggle="collapse" href="#div-4">
-                            <i class="icon-chevron-up"></i>
-                        </a>
-                    </li>
-                </ul>
+                <div class="toolbar">
+		  <ul class="nav pull-right">
+		      <li><a href="#">Link</a></li>
+		      <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">
+			      <i class="icon-th-large"></i>
+			  </a>
+			  <ul class="dropdown-menu">
+			      <li><a href="">q</a></li>
+			      <li><a href="">a</a></li>
+			      <li><a href="">b</a></li>
+			  </ul>
+		      </li>
+		      <li>
+			  <a class="accordion-toggle minimize-box" data-toggle="collapse" href="#div-4">
+			      <i class="icon-chevron-up"></i>
+			  </a>
+		      </li>
+		  </ul>
+                </div>
+                <!-- /.toolbar -->
+                
             </header>
             <div id="div-4" class="accordion-body collapse in body">
                 <form class="form-horizontal">
@@ -1205,18 +1213,22 @@ scripts: $(function() { formGeneral(); });
                     <i class="icon-edit"></i>
                 </div>
                 <h5>Color Picker</h5>
-                <ul class="nav pull-right">
-                    <li>
-                        <a href="#colorPickerBlock" data-toggle="collapse" class="accordion-toggle minimize-box">
-                            <i class="icon-chevron-up"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="close-box">
-                            <i class="icon-remove"></i>
-                        </a>
-                    </li>
-                </ul>
+                <div class="toolbar">
+		  <ul class="nav pull-right">
+		      <li>
+			  <a href="#colorPickerBlock" data-toggle="collapse" class="accordion-toggle minimize-box">
+			      <i class="icon-chevron-up"></i>
+			  </a>
+		      </li>
+		      <li>
+			  <a href="#" class="close-box">
+			      <i class="icon-remove"></i>
+			  </a>
+		      </li>
+		  </ul>
+                </div>
+                <!-- /.toolbar -->
+                
             </header>
             <!-- .BODY -->
             <div class="body collapse in" id="colorPickerBlock">
@@ -1279,18 +1291,22 @@ scripts: $(function() { formGeneral(); });
                     <i class="icon-calendar"></i>
                 </div>
                 <h5>Date Picker</h5>
-                <ul class="nav pull-right">
-                    <li>
-                        <a href="#datePickerBlock" data-toggle="collapse" class="accordion-toggle minimize-box">
-                            <i class="icon-chevron-up"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="close-box">
-                            <i class="icon-remove"></i>
-                        </a>
-                    </li>
-                </ul>
+                <div class="toolbar">
+		  <ul class="nav pull-right">
+		      <li>
+			  <a href="#datePickerBlock" data-toggle="collapse" class="accordion-toggle minimize-box">
+			      <i class="icon-chevron-up"></i>
+			  </a>
+		      </li>
+		      <li>
+			  <a href="#" class="close-box">
+			      <i class="icon-remove"></i>
+			  </a>
+		      </li>
+		  </ul>
+                </div>
+                <!-- /.toolbar -->
+                
             </header>
             <div id="datePickerBlock" class="body collapse in">
                 <form class="form-horizontal">
@@ -1378,18 +1394,22 @@ scripts: $(function() { formGeneral(); });
                     <i class="icon-calendar"></i>
                 </div>
                 <h5>Date Range Picker</h5>
-                <ul class="nav pull-right">
-                    <li>
-                        <a href="#dateRangePickerBlock" data-toggle="collapse" class="accordion-toggle minimize-box">
-                            <i class="icon-chevron-up"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="close-box">
-                            <i class="icon-remove"></i>
-                        </a>
-                    </li>
-                </ul>
+                <div class="toolbar">
+		  <ul class="nav pull-right">
+		      <li>
+			  <a href="#dateRangePickerBlock" data-toggle="collapse" class="accordion-toggle minimize-box">
+			      <i class="icon-chevron-up"></i>
+			  </a>
+		      </li>
+		      <li>
+			  <a href="#" class="close-box">
+			      <i class="icon-remove"></i>
+			  </a>
+		      </li>
+		  </ul>
+                </div>
+                <!-- /.toolbar -->
+                
             </header>
             <!-- .block -->
 
@@ -1467,24 +1487,28 @@ scripts: $(function() { formGeneral(); });
             <header>
                 <div class="icons"><i class="icon-th"></i></div>
                 <h5>Grid Inputs</h5>
-                <ul class="nav pull-right">
-                    <li><a href="#">Link</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="icon-th-large"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="">q</a></li>
-                            <li><a href="">a</a></li>
-                            <li><a href="">b</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#div-5" data-toggle="collapse" class="accordion-toggle minimize-box">
-                            <i class="icon-chevron-up"></i>
-                        </a>
-                    </li>
-                </ul>
+                <div class="toolbar">
+		  <ul class="nav pull-right">
+		      <li><a href="#">Link</a></li>
+		      <li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+			      <i class="icon-th-large"></i>
+			  </a>
+			  <ul class="dropdown-menu">
+			      <li><a href="">q</a></li>
+			      <li><a href="">a</a></li>
+			      <li><a href="">b</a></li>
+			  </ul>
+		      </li>
+		      <li>
+			  <a href="#div-5" data-toggle="collapse" class="accordion-toggle minimize-box">
+			      <i class="icon-chevron-up"></i>
+			  </a>
+		      </li>
+		  </ul>
+                </div>
+                <!-- /.toolbar -->
+                
             </header>
             <div id="div-5" class="accordion-body collapse in body">
                 <form class="">
@@ -1590,8 +1614,8 @@ scripts: $(function() { formGeneral(); });
         <div class="box">
             <header>
                 <h5><i class="icon-th-large"></i> Dual Select With Filtering</h5>
-
-                <ul class="nav pull-right">
+		<div class="toolbar">
+		<ul class="nav pull-right">
                     <li><a href="#">Link</a></li>
                     <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#"><i
                                 class="icon-th-large"></i></a>
@@ -1607,6 +1631,9 @@ scripts: $(function() { formGeneral(); });
                         </a>
                     </li>
                 </ul>
+	    </div>
+	    <!-- /.toolbar -->
+                
             </header>
             <div id="div-3" class="accordion-body collapse in body">
                 <div class="row">

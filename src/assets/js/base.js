@@ -1,6 +1,10 @@
 $(function() {
     "use strict";
 
+    $('a[href=#]').on('click', function(e){
+      e.preventDefault();
+    });
+    
     $('a[data-toggle=tooltip]').tooltip();
     $('a[data-tooltip=tooltip]').tooltip();
 
@@ -20,5 +24,9 @@ $(function() {
 
     $('#changeSidebarPos').on('click', function(e) {
         $('body').toggleClass('hide-sidebar');
+    });
+    
+     $('li.accordion-group > a').on('click',function(e){
+        $(this).children('span').children('i').toggleClass('icon-angle-down');
     });
 });

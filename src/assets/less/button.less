@@ -33,37 +33,37 @@
 
 
 .btn-metis-1 {
-    .btn-pseudo-states(#fff, @metis-1-color, @metis-1-highlight-color); 
+    .button-variant(#fff, @metis-1-color, @metis-1-highlight-color); 
 }
 .btn-metis-2 {
-    .btn-pseudo-states(#fff, @metis-2-color, @metis-2-highlight-color); 
+    .button-variant(#fff, @metis-2-color, @metis-2-highlight-color); 
 }
 .btn-metis-3 {
-    .btn-pseudo-states(#fff, @metis-3-color, @metis-3-highlight-color);
+    .button-variant(#fff, @metis-3-color, @metis-3-highlight-color);
 }
 .btn-metis-4 {
-    .btn-pseudo-states(#fff, @metis-4-color, @metis-4-highlight-color);
+    .button-variant(#fff, @metis-4-color, @metis-4-highlight-color);
 }
 .btn-metis-5 {
-    .btn-pseudo-states(#fff, @metis-5-color, @metis-5-highlight-color);
+    .button-variant(#fff, @metis-5-color, @metis-5-highlight-color);
 }
 .btn-metis-6 {
-    .btn-pseudo-states(#fff, @metis-6-color, @metis-6-highlight-color);
+    .button-variant(#fff, @metis-6-color, @metis-6-highlight-color);
 }
 .btn-circle {
     border-radius: 500px;
     .square(40px);
   padding: 8px 10px;
 
-    &.btn-large {
+    &.btn-lg {
       .square(60px);
       padding: 14px 16px;
     }
-    &.btn-small {
+    &.btn-sm {
         .square(30px);
       padding: 5px 10px;
     }
-  &.btn-mini {
+  &.btn-xs {
     .square(20px);
     padding: 0 5px;
   }
@@ -73,9 +73,9 @@
 }
 .btn-round {
   &.btn {border-radius: 28px;}
-  &.btn-mini {border-radius: 28px;}
-  &.btn-small {border-radius: 28px;}
-  &.btn-large {border-radius: 28px;}
+  &.btn-xs {border-radius: 28px;}
+  &.btn-sm {border-radius: 28px;}
+  &.btn-lg {border-radius: 28px;}
 }
 
 .btn-line-states(@color, @background, @border) {
@@ -108,7 +108,7 @@
 
 .btn-line {
     &.btn-default {
-        .btn-line-states(@btn-default-color, @btn-default-bg, @btn-default-border);
+        .btn-line-states(@btn-default-bg, @btn-default-color, @btn-default-border);
     }
     &.btn-primary {
         .btn-line-states(@btn-primary-color, @btn-primary-bg, @btn-primary-border);
